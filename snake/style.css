@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "game";
+    src: url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;800&display=swap");
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+button:focus {
+    outline: none;
+}
+
+:root {
+    --primary-color: #6e7888;
+    --secondary-color: #222738;
+    --dark-bg: #181825;
+}
+
+.container {
+    display: flex;
+    background-color: #222738;
+    height: 100vh;
+}
+.wrapper {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.title {
+    margin: 10px 0;
+    color: var(--primary-color);
+}
+#snake {
+    background-color: var(--dark-bg);
+    margin-bottom: 10px;
+}
+.btn {
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: 800;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+}
+.btn:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
